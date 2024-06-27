@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+}
+
+body {
+    font-size: 1.6rem;
+    
+}
+
+.page {
+    width: 1000px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+nav ul{
+    display: flex;
+    gap: 2.9rem;
+    list-style: none;
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-pricipal {
+    display: flex;
+    flex-direction: column;
+    gap: 2.0rem;
+}
+.text-pricipal h1 { 
+    font-size: 4.0rem;
+    
+    max-width: 31.0rem;
+}
+
+.text-pricipal h1 span {
+    color: rgb(35, 185, 185);
+}
+
+.text-pricipal p {
+    line-height: 2.5rem;
+}
+
+.text-pricipal button {
+    background-color: rgba(58, 222, 58, 0.8);
+    padding: 0.5rem 2.0rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    border: 0;
+    border-radius: 0.8rem;
+    width: fit-content;
+}
+
+
+footer {
+    text-align: center;
+}
+
+.balls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
